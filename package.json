@@ -14,10 +14,14 @@
     "@babel/core": "^7.18.10",
     "@babel/plugin-syntax-flow": "^7.14.5",
     "@babel/plugin-transform-react-jsx": "^7.14.9",
+    "@craco/craco": "^6.4.5",
     "@reduxjs/toolkit": "^1.8.5",
+    "@types/node": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-is": "^18.2.0",
     "react-redux": "^8.0.2",
+    "react-router-dom": "6",
     "react-scripts": "^5.0.1",
     "typescript": ">=3.2.1 <4.0.0 || >=4.0.0 <5.0.0"
   },
@@ -32,5 +36,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "styled-components": "^5.3.5",
+    "tailwind-styled-components": "^2.1.8",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   }
 }
